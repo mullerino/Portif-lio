@@ -1,3 +1,0 @@
-Margin ---- Afastamento do intero para o externo
-padding ---- Afastamento intero
-flex box ---- modo de posicionar itens 
