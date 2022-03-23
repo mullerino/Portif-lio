@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imersão Dev - Aula 09</title>
+        <link rel="stylesheet" href="style.css" media="screen">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="fundoBranco" id="mudar">
+            <header class="cabecalho">
+                <div class="perfil">
+                <img class="perfil-photo" src="https://avatars.githubusercontent.com/u/75099666?v=4"> 
+                <div class="titulos">
+                    <h1>Leandro Müller</h1>
+                    <h3>Aspirante a desenvolvedor front-end</h3>
+                </div>
+                </div>
+                <div class="redesSociais">
+                    <div class="zoom">
+                        <a href="https://www.instagram.com/leandr0_muller/" target="_blank"><img id="inst" src=https://cdn.icon-icons.com/icons2/2715/PNG/512/instagram_logo_icon_172387.png></a>
+                    </div>
+                    <div class="zoom">
+                        <a href="https://www.linkedin.com/in/leandro-muller-89035867/" target="_blank"><img id="linkdn" src=https://cdn-icons-png.flaticon.com/512/61/61109.png></a>
+                    </div>
+                    <div class="zoom">
+                        <a href="https://github.com/mullerino" target="_blank"><img id="git" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+                    </div>    
+                </div>
+                <div class="botAlterar"><button type="submit" id="bot" onclick="AlterarTema()" >Alterar tema</button></div>
+            </header>
+
+            <main class="projetos">
+                <div class="fundoAzul">
+                    <ul class="proj" >Projetos</ul>
+                       
+                        <li class="proj-itens" onmouseover="MostrBots()" onmouseout="EscBots()">🔢Calculadora de média
+                            <a href="https://mullerino.github.io/Calculadora-de-M-dia/" target="_blank"><button type='button' class="botA" id='botAcessar1' style="display: none;">Acessar</button></a>
+                            <a href="https://github.com/mullerino/Calculadora-de-M-dia" target="_blank"><button type='button' class="botR" id='botRep1'style="display: none;">Repositório</button></a>
+                        </li>
+                        
+                        <li class="proj-itens" onmouseover="MostrBots1()" onmouseout="EscBots1()">💱Conversor de moedas
+                            <a href="https://mullerino.github.io/Conversor-de-moedas/" target="_blank"><button type='button' class="botA" id='botAcessar2' style="display: none;">Acessar</button> </a>
+                            <a href="https://github.com/mullerino/Conversor-de-moedas" target="_blank"><button type='button' class="botR" id='botRep2' style="display: none;">Repositório</button></a>
+                        </li>
+                        <li class="proj-itens" onmouseover="MostrBots2()" onmouseout="EscBots2()">🔮Mentalista
+                            <a href="https://mullerino.github.io/Mentalista/" target="_blank"><button type='button' class="botA" id='botAcessar3' style="display: none;">Acessar</button></a>
+                            <a href="https://github.com/mullerino/Mentalista" target="_blank"><button type='button' class="botR" id='botRep3' style="display: none;">Repositório</button></a>
+                        </li>
+
+                        <li class="proj-itens" onmouseover="MostrBots3()" onmouseout="EscBots3()">🎦Catalogo dos animes, filmes e séries
+                            <a href="https://mullerino.github.io/AluraFlix/" target="_blank"><button type='button' class="botA" id='botAcessar4' style="display: none;">Acessar</button></a>
+                            <a href="https://github.com/mullerino/AluraFlix" target="_blank"><button type='button' class="botR" id='botRep4' style="display: none;">Repositório</button></a>
+                        </li>
+
+                        <li class="proj-itens" onmouseover="MostrBots4()" onmouseout="EscBots4()">🎮Tabela de classificação
+                            <a href="https://mullerino.github.io/Tabela-de-classifica-o/" target="_blank"><button type='button' class="botA" id='botAcessar5' style="display: none;">Acessar</button></a>
+                            <a href="https://github.com/mullerino/Tabela-de-classifica-o" target="_blank"><button type='button' class="botR" id='botRep5'style="display: none;">Repositório</button></a>
+                        </li>
+
+                        <li class="proj-itens" onmouseover="MostrBots5()" onmouseout="EscBots5()" >🃏Super Trunfo
+                            <a href="https://mullerino.github.io/Super-trunfo-2.0/" target="_blank"><button type='button' class="botA" id='botAcessar6' style="display: none;">Acessar</button></a>
+                            <a href="https://github.com/mullerino/Super-trunfo-2.0" target="_blank"><button type='button' class="botR" id='botRep6' style="display: none;">Repositório</button></a>
+                        </li>
+                                    
+                    </div>    
+                
+                <div class="Conquistas">
+                    <ul class="Conq-title">Conquistas</ul>
+                    <li><img src="assests/imgs/Aula 1 - Média.png"></li>
+                    <li><img src="assests/imgs/Dia 3 - Mentalista.png"></li>
+                    <li><img src="assests/imgs/Dia 4 e 5 - Aluraflix.png"></li>
+                    <li><img src="assests/imgs/Dia 7 e 8 - Super Trunfo.png"></li>
+                    <li><img src="assests/imgs/Aula 9 - HTML e CSS.png"></li>
+                </div>
+
+            </main>
+        </div>
+    </body>
+</html>

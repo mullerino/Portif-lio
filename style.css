@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@350&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(236.85deg, #041832 36%, #bd1b28 33%);
+}
+
+.fundoBranco{
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 70px;
+    box-shadow: 7px 7px 7px #0E1D2F;
+    border-radius: 20px; 
+    padding: 60px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.perfil{
+    display: flex;
+    width: 100%;
+    
+}
+
+.perfil-photo{
+    border-radius: 460px;
+    max-height: 150px;
+    box-shadow: 0px 4px 4px;
+}
+
+.titulos{
+    margin-left: 16px;
+}
+
+.titulos h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulos h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#bot{
+    font-weight: 400;
+    font-size: 22px;
+    color: #0E1D2F;
+    align-self: flex-end;
+    padding: 8px 16px;
+    background: #ECF4FF;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width:170px;
+    height: 55px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: row;
+}
+
+.fundoAzul{
+    margin-top: 26px;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    overflow-y: scroll;
+    max-height: 372px;
+    width: 750px;
+}
+
+.proj{
+    font-size: 40px;
+    margin-top: 25px;
+    color: #1C1C1C;
+    font-weight: 700;
+    text-align: center;
+}
+
+.proj-itens{
+    list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #1C1C1C;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.proj-itens a{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.Conquistas{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 35%;
+    overflow-y: scroll;
+    max-height: 373px;
+    line-height: 50px;
+}
+
+.Conq-title{
+    margin-left: -26px;
+    color: #1C1C1C;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.Conquistas li{
+    list-style-type: none;
+}
+
+.Conquistas img{
+    max-height: 100px;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s ;
+    transition: all 0.3s;
+    color:#bd1b28;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+li:hover{
+    transform: translateX(-4px);
+}
+
+.redesSociais{
+    display: flex;
+}
+
+#inst, #linkdn, #git{
+    max-height: 65px;
+    max-width: 65px;
+}
+
+#inst{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    left: 39%;
+    top: 20.5%;
+}
+
+#linkdn{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 45%;
+    top: 23.5%;
+}
+
+#git {
+    position: absolute;
+    left: 50%;
+    top: 21%;
+    height: 35px;
+    width: 30px;
+}
+
+.botA, .botR{
+   margin-left: 10px;
+   width: 80px;
+   padding: 4px;
+   border-radius: 20px;
+   box-shadow: 0px 2px 2px black;
+   background: linear-gradient(#8a2be2, #b22222);
+   color: white;
+}
